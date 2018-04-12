@@ -121,4 +121,3 @@ let student2 = newStudent(name: "Пешо", age: 20, facultyNumber: 876, maths: 
 
 print("Средният успех на \(student1.name) e:", student1.printStudentAverageGrade())
 print("Средният успех на \(student2.name) e:", student2.printStudentAverageGrade())
-
