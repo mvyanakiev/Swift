@@ -41,9 +41,12 @@ print(favoriteArtists.sorted())
 print(favoriteArtists.count)
 "Slayer".hashValue //хеша е винаги еднакво число за дадени данни
 // Dictionary
+
 var places: [String:(lat:Double, lon:Double)] = ["Sofia":(42.7, 23.3), "Vienna":(48.12, 16.22), "San Francisco":
     (37.47, -122.25)]
+
 var dictionary: [String:String] = ["road":"път", "woman":"жена"]
+
 print(dictionary["road"]!)
 print(places["Sofia"]!)
 print(places["Sofia"]!.lat) // това и долното са едно и също
