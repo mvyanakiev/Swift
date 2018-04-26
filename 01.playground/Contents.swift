@@ -53,6 +53,9 @@ print(newString)
 
 
 
+
+
+
 // това e Struct (като class)
 struct Student{
     var name: String
@@ -74,6 +77,12 @@ let secondStudent = Student(name: "John", age: 23, facultyNumber: "2343", averag
 print(secondStudent.name, "е на", secondStudent.age)
 
 
+
+
+
+
+
+
 // функции
 // указваш типовете включително и на резултата
 func sum(number1: Int, number2: Int) -> Int {
@@ -83,6 +92,10 @@ func sum(number1: Int, number2: Int) -> Int {
 
 let resultOfSum = sum(number1: 33, number2: 4)
 print(resultOfSum)
+
+
+
+
 
 struct Student1{
     var name: String
@@ -100,6 +113,15 @@ printStdentNameAndFacNumber(student: secondStudent)
 
 secondStudent.printStudentAndFN()
 
+
+
+
+
+
+
+
+
+
 struct newStudent{
     var name: String
     var age: Int
@@ -109,14 +131,15 @@ struct newStudent{
     var chemistry: Double
 
     func printStudentAverageGrade() -> String {
-        let averageGrade = (self.maths + self.english + self.chemistry) / 3 // self е като "this" в JS
+        // self е като "this" в JS
+        let averageGrade = (self.maths + self.english + self.chemistry) / 3
         let formatedGrade = String(format: "%0.2f", averageGrade)
         return formatedGrade
     }
 }
 
 
-let student1 = newStudent(name: "Gosho", age: 23, facultyNumber: 12345, maths: 3.23, english: 5.55, chemistry: 4.67)
+let student1 = newStudent(name: "Gosho", age: 23, facultyNumber: 12345, maths: 5.23, english: 5.55, chemistry: 5.67)
 let student2 = newStudent(name: "Пешо", age: 20, facultyNumber: 876, maths: 6.00, english: 3.23, chemistry: 4.33)
 
 print("Средният успех на \(student1.name) e:", student1.printStudentAverageGrade())
