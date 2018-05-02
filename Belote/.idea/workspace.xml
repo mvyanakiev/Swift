@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102eaf14-99a7-47bd-be13-ca892c9ee496" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/milko.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MacOsCommandLine/main.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01 Homework Fuel Consumption funct.playground/Contents.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01 Homework Fuel Consumption funct.playground/contents.xcplayground" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01 Homework Fuel Consumption.playground/Contents.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01 Homework Fuel Consumption.playground/contents.xcplayground" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01.playground/Contents.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../01.playground/Contents.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01.playground/contents.xcplayground" beforeDir="false" afterPath="$PROJECT_DIR$/../01.playground/contents.xcplayground" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/milko.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/milko.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacOsCommandLine/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/MacOsCommandLine/main.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +19,8 @@
       <file leaf-file-name="main.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MacOsCommandLine/main.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="172">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -55,8 +49,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="35" />
+    <option name="x" value="7" />
+    <option name="y" value="30" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -68,42 +62,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Cidr.FilesView">
         <subPane>
           <expand>
             <path>
               <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MacOsCommandLine" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MacOsCommandLine" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Belote" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MacOsCommandLine" type="47feb1d3:ProjectViewModuleNode" />
               <item name="Belote" type="462c0819:PsiDirectoryNode" />
               <item name="MacOsCommandLine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Belote" type="462c0819:PsiDirectoryNode" />
-              <item name="MacOsCommandLine.xcodeproj" type="47c1a962:XcodePackagePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Belote" type="462c0819:PsiDirectoryNode" />
-              <item name="MacOsCommandLine.xcodeproj" type="47c1a962:XcodePackagePsiDirectoryNode" />
-              <item name="project.xcworkspace" type="47c1a962:XcodePackagePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MacOsCommandLine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Belote" type="462c0819:PsiDirectoryNode" />
-              <item name="MacOsCommandLine.xcodeproj" type="47c1a962:XcodePackagePsiDirectoryNode" />
-              <item name="project.xcworkspace" type="47c1a962:XcodePackagePsiDirectoryNode" />
-              <item name="xcuserdata" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,23 +127,25 @@
       <workItem from="1524680073782" duration="297000" />
       <workItem from="1524680395875" duration="2793000" />
       <workItem from="1524689038441" duration="2703000" />
+      <workItem from="1524927393144" duration="4609000" />
+      <workItem from="1524932562390" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5793000" />
+    <option name="totallyTimeSpent" value="10455000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="35" width="1400" height="837" extended-state="0" />
+    <frame x="7" y="30" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17142858" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32896462" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32896462" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32896462" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007143" side_tool="true" weight="0.22673656" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" weight="0.26736566" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -183,6 +167,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MacOsCommandLine/main.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" lean-forward="true" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MacOsCommandLine/main.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MacOsCommandLine/main.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -207,8 +205,8 @@
     <entry file="file://$PROJECT_DIR$/MacOsCommandLine/Lab_03.swift" />
     <entry file="file://$PROJECT_DIR$/MacOsCommandLine/main.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="172">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
         </state>
       </provider>
     </entry>
