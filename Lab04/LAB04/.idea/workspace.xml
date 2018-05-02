@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0854ce46-621f-4144-96ec-d0a23a140dfc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/milko.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Belote/.idea/dictionaries/milko.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Belote/.idea/dictionaries/milko.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Belote/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Belote/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Belote/MacOsCommandLine/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../Belote/MacOsCommandLine/main.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB04/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/LAB04/main.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +18,8 @@
       <file leaf-file-name="main.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2305">
-              <caret line="252" column="63" selection-start-line="252" selection-start-column="63" selection-end-line="252" selection-end-column="63" />
+            <state relative-caret-position="412">
+              <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
             </state>
           </provider>
         </entry>
@@ -115,24 +111,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525275336390</updated>
-      <workItem from="1525275339454" duration="10044000" />
+      <workItem from="1525275339454" duration="10134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10044000" />
+    <option name="totallyTimeSpent" value="10134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="29" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15357143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15357143" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32896462" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007143" side_tool="true" weight="0.32896462" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928573" visible="true" weight="0.32896462" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" visible="true" weight="0.32896462" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
@@ -156,8 +152,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2305">
-          <caret line="252" column="63" selection-start-line="252" selection-start-column="63" selection-end-line="252" selection-end-column="63" />
+        <state relative-caret-position="412">
+          <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
         </state>
       </provider>
     </entry>

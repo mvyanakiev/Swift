@@ -254,3 +254,5 @@ gosho.checkInformation(for: myTruck) // баш полиморфизъм е то�
 gosho.checkInformation(for: myMotor)
 
 
+
+
