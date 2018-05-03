@@ -1,22 +1,16 @@
-//
-//  main.swift
-//  LAB04
-//
-//  Created by Milko Yanakiev on 2.05.18 г..
-//  Copyright © 2018 Milko Yanakiev. All rights reserved.
-//
+//: Playground - noun: a place where people can play
 
-import Foundation
+import UIKit
 
 
-/*
+
 class Human {
     var age: Int?
-
+    
     func walk() {
-//make a step
+        //make a step
     }
-
+    
     func talk() {
         print("Human: Hello world")
     }
@@ -25,33 +19,33 @@ class Human {
 let pesho = Human()
 pesho.age = 23
 pesho.talk()
-*/
 
 
-//if pesho is Human {
-//    print("pesho e human")
-//}
+
+if pesho is Human {
+    print("pesho e human")
+}
 
 
 // Init = constructor (може да няма ако няма Non-optional property)
 // може да имаш deinit за унищожаване
 
-/*
+
 class MyFirstClass {
     init(var1: Int, var2: String, cons1: Int) {
         variable1 = var1
         variable2 = var2
         const1 = cons1
     }
-
+    
     var variable1: Int? // Optional variable -> може и без стойност при създаване на обект от класа "?"
     var variable2: String! // Non-optional variable -> задължително е да има стойност "!"
     let const1: Int
-
+    
     deinit {
         print("bye")
     }
-
+    
     func printAll() {
         print(variable1!, variable2, const1)
     }
@@ -70,14 +64,14 @@ instance2.printAll()
 
 
 class Atm {
-
+    
     static let sharedInstance = Atm(availableMoney: 8670.0)
     var money: Double
-
+    
     init(availableMoney: Double) {
         self.money = availableMoney
     }
-
+    
     func withdraw(moneyTeg:Double, human:Human1) {
         if moneyTeg > self.money {
             print("not enough money in atm")
@@ -94,12 +88,12 @@ class Atm {
 class Human1 {
     var hisName:String
     var hisMoney:Double
-
+    
     init(name: String, humansAvailableMoney: Double) {
         self.hisName = name
         self.hisMoney = humansAvailableMoney
     }
-
+    
 }
 
 var bankomat1 = Atm(availableMoney: 12983)
@@ -115,11 +109,11 @@ Atm.sharedInstance.withdraw(moneyTeg: 100, human: gosho)
 
 class CupClass {
     var percentageFull: Double
-
+    
     init(percentageFull: Double) {
         self.percentageFull = percentageFull
     }
-
+    
     func fill() {
         self.percentageFull = 100
     }
@@ -128,14 +122,14 @@ class CupClass {
 
 struct CupStruct {
     var percentageFull: Double
-
+    
     init(percentageFull: Double) {
         self.percentageFull = percentageFull
     }
-
+    
     mutating func fill() {
         self.percentageFull = 100
-
+        
     }
 }
 
@@ -153,7 +147,7 @@ print(cupClass1.percentageFull, cupStruct1.percentageFull) // класа нап�
 // клас 2 е шорткът на клас 1
 // при структурите всяка е за себе си, в структурата няма наследяване
 
-*/
+
 
 
 class Vehicle {
@@ -161,14 +155,14 @@ class Vehicle {
     let engine: Float
     var hps: Float
     let VIN: String
-
+    
     init(regNumber: String, engine: Float, hps: Float, VIN: String) {
         self.regNumber = regNumber
         self.engine = engine
         self.hps = hps
         self.VIN = VIN
     }
-
+    
     func printInfo(){
         print(self.regNumber, self.VIN, self.engine, self.hps)
     }
@@ -177,13 +171,13 @@ class Vehicle {
 
 class Car: Vehicle {
     let numberOfSeats: Int
-
+    
     init(regNumber: String, engine: Float, hps: Float, VIN: String, numberOfSeats: Int) {
         self.numberOfSeats = numberOfSeats
         super.init(regNumber: regNumber, engine: engine, hps: hps, VIN: VIN)
     }
-
-   override func printInfo(){
+    
+    override func printInfo(){
         print(self.regNumber, self.VIN, self.engine, self.hps, self.numberOfSeats) // override с новите неща за тоя клас (брой места)
     }
 }
@@ -192,14 +186,14 @@ class Car: Vehicle {
 
 class Motorcycle: Vehicle {
     var maxSpeed: Double
-
+    
     init(regNumber: String, engine: Float, hps: Float, VIN: String, maxSpeed:Double) {
         self.maxSpeed = maxSpeed
         super.init(regNumber: regNumber, engine: engine, hps: hps, VIN: VIN)
     }
-
+    
     override func printInfo(){
-
+        
         super.printInfo() //принти функцията от бащата
         print(self.maxSpeed) // добавя с новите неща за тоя клас (max speed)
     }
@@ -208,12 +202,12 @@ class Motorcycle: Vehicle {
 
 class Truck: Vehicle {
     let maxLoad: Int
-
+    
     init(regNumber: String, engine: Float, hps: Float, VIN: String, maxLoad: Int) {
         self.maxLoad = maxLoad
         super.init(regNumber: regNumber, engine: engine, hps: hps, VIN: VIN)
     }
-
+    
     override func printInfo(){
         print(self.regNumber, self.VIN, self.engine, self.hps, self.maxLoad) // override с новите неща за тоя клас (натоварване)
     }
@@ -233,22 +227,23 @@ let myMotor = Motorcycle(regNumber: "CA8789", engine: 1.0, hps: 123, VIN: "ASS98
 class Policeman{ //взима елементи от класа Vehicle
     let name: String
     let rank: String
-
+    
     init(name: String, rank: String) {
         self.name = name
         self.rank = rank
     }
-
+    
     func checkInformation(for item:Vehicle ) { //като напишеш for става по-красиво долу като го викаш
         item.printInfo()
     }
 }
 
-let gosho = Policeman(name: "Gosho", rank: "Sergent")
+let kolio = Policeman(name: "Kolio", rank: "Sergent")
 
 
-gosho.checkInformation(for: myTruck) // баш полиморфизъм е това
-gosho.checkInformation(for: myMotor)
+kolio.checkInformation(for: myTruck) // баш полиморфизъм е това
+kolio.checkInformation(for: myMotor)
+
 
 
 
