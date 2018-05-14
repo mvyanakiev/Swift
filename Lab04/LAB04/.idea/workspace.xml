@@ -2,6 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0854ce46-621f-4144-96ec-d0a23a140dfc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../03_Homework_HumanClass.playground/Contents.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03_Homework_HumanClass.playground/contents.xcplayground" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/Human_class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/dictionaries/milko.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/Human class.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/Human class.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Human_class/Human class/main.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/Swift04.2018.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Swift04.2018/Swift04.2018/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HomeworkFuelConsumption.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB04/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/LAB04/main.swift" afterDir="false" />
     </list>
@@ -18,8 +44,8 @@
       <file leaf-file-name="main.swift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
-              <caret line="255" lean-forward="true" selection-start-line="10" selection-end-line="255" />
+            <state relative-caret-position="423">
+              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,7 +101,6 @@
         </subPane>
       </pane>
       <pane id="Cidr.FilesView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,34 +140,36 @@
       <workItem from="1525275339454" duration="10207000" />
       <workItem from="1525290780852" duration="318000" />
       <workItem from="1525330275525" duration="86000" />
+      <workItem from="1525932019986" duration="440000" />
+      <workItem from="1525938317877" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10611000" />
+    <option name="totallyTimeSpent" value="11056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="23" y="29" width="1400" height="837" extended-state="0" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15357143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15357143" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007143" side_tool="true" weight="0.32896462" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" weight="0.32896462" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928573" weight="0.32896462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973786" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896462" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896462" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +178,26 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="255" lean-forward="true" selection-start-line="10" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1695">
@@ -167,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LAB04/main.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="255" lean-forward="true" selection-start-line="10" selection-end-line="255" />
+        <state relative-caret-position="423">
+          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
         </state>
       </provider>
     </entry>

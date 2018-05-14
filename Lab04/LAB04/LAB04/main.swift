@@ -9,7 +9,7 @@
 import Foundation
 
 
-/*
+
 class Human {
     var age: Int?
 
@@ -25,18 +25,18 @@ class Human {
 let pesho = Human()
 pesho.age = 23
 pesho.talk()
-*/
 
 
-//if pesho is Human {
-//    print("pesho e human")
-//}
+
+if pesho is Human {
+    print("pesho e human")
+}
 
 
 // Init = constructor (може да няма ако няма Non-optional property)
 // може да имаш deinit за унищожаване
 
-/*
+
 class MyFirstClass {
     init(var1: Int, var2: String, cons1: Int) {
         variable1 = var1
@@ -153,7 +153,7 @@ print(cupClass1.percentageFull, cupStruct1.percentageFull) // класа нап�
 // клас 2 е шорткът на клас 1
 // при структурите всяка е за себе си, в структурата няма наследяване
 
-*/
+
 
 
 class Vehicle {
@@ -244,12 +244,23 @@ class Policeman{ //взима елементи от класа Vehicle
     }
 }
 
-let gosho = Policeman(name: "Gosho", rank: "Sergent")
+let tosho = Policeman(name: "Gosho", rank: "Sergent")
 
 
-gosho.checkInformation(for: myTruck) // баш полиморфизъм е това
-gosho.checkInformation(for: myMotor)
+tosho.checkInformation(for: myTruck) // баш полиморфизъм е това
+tosho.checkInformation(for: myMotor)
 
 
 
 
+
+//var result = 0
+//for i in 0...4 {
+//    if i == 3 {
+//        result += 10
+//    } else{
+//        result += i
+//    }
+//}
+//
+//print(result)
