@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var alphaLabel: UILabel!
     @IBOutlet weak var smallViewSwitch: UISwitch!
     @IBOutlet weak var bigSLider: UISlider!
+    @IBOutlet weak var steppSlider: UISlider!
     
     
 
@@ -43,9 +44,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func changeSwitchColor(_ sender: UISlider) {
-        
         self.mySw.onTintColor = UIColor(red: CGFloat(sender.value), green: 0, blue: 0, alpha: 1)
     }
+    
+    
+    @IBAction func steppedValueChange(_ sender: UISlider) {
+        let value = Int(sender.value) // маха десетичната запетая
+        sender.value = Float(value) // снапва към целочислено число, движи се на степени
+    }
+    
     
     
     
@@ -55,6 +62,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.picture01.alpha = CGFloat(sender.value)
         self.alphaLabel.text = String(round((sender.value) * 100))
     }
+    
+    
+    
     
     @IBAction func changeViewBackground(_ sender: UISwitch) {
         if smallViewSwitch.isOn {
@@ -66,26 +76,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
-
-
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if string == " " {
             return false
         }
         return true
     }
-    
-    
-    
-    
-    
-
 }
 
