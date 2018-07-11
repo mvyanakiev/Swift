@@ -9,38 +9,56 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var label: UILabel!
+
+    
     @IBAction func startIntervals(_ sender: UIButton) {
         
-        let slow = 10
-        let fast = 10
-        let repeatInterval = 15
+        let slow:Int = 2
+        let fast = 2
+        let repeatInterval:Int = 4
+//        self.label.text = String(repeatInterval)
         
         for i in 1...repeatInterval {
             
+//            self.label.text = String(repeatInterval - i)
+
+            if (i % 2 == 0) {
+                for _ in 1...slow {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1 ) {
+                       self.view.backgroundColor = .green
+                    }
+                }
+            } else if (i % 2 != 0) {
+                for _ in 1...fast {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 1 ) {
+                        self.view.backgroundColor = .red
+                    }
+                }
+
+            }
             
-
-
-
-
         }
-        
-        
-        
-        
-        
-        
+    
+    
     }
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
+}
 
 }
+
+
+
 
